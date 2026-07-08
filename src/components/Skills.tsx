@@ -23,7 +23,7 @@ const skillCategories = [
       'Memahami pengembangan antarmuka web modern menggunakan Next.js, React, dan Tailwind CSS dengan fokus pada layout responsif, komponen reusable, dan tampilan yang bersih.',
   },
   {
-    title: 'Web Development & Mobile Development',
+    title: 'Mobile Development',
     score: '6/10',
     backColor: 'bg-emerald-600',
     textColor: 'text-white',
