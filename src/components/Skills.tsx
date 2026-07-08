@@ -23,7 +23,7 @@ const skillCategories = [
       'Memahami pengembangan antarmuka web modern menggunakan Next.js, React, dan Tailwind CSS dengan fokus pada layout responsif, komponen reusable, dan tampilan yang bersih.',
   },
   {
-    title: 'Mobile Development',
+    title: 'Web Development & Mobile Development',
     score: '6/10',
     backColor: 'bg-emerald-600',
     textColor: 'text-white',
@@ -36,7 +36,7 @@ const skillCategories = [
     score: '6/10',
     backColor: 'bg-amber-500',
     textColor: 'text-white',
-    skills: ['PHP', 'Laravel', 'MySQL', 'MariaDB'],
+    skills: ['PHP', 'Laravel', 'MySQL', 'MariaDB', 'Supabase'],
     description:
       'Memahami konsep dasar Model-View-Controller, routing, dan CRUD pada aplikasi web berbasis Laravel, serta perancangan basis data relasional menggunakan MySQL/MariaDB.',
   },
