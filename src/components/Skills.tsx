@@ -38,7 +38,7 @@ const skillCategories = [
     textColor: 'text-white',
     skills: ['PHP', 'Laravel', 'MySQL', 'MariaDB', 'Supabase'],
     description:
-      'Memahami konsep dasar Model-View-Controller, routing, dan CRUD pada aplikasi web berbasis Laravel, serta perancangan basis data relasional menggunakan MySQL/MariaDB.',
+      'Memahami konsep dasar Model-View-Controller (MVC), routing, dan implementasi CRUD menggunakan Laravel, serta pengembangan aplikasi Flutter yang terintegrasi dengan Supabase. Memiliki pemahaman dalam perancangan basis data relasional menggunakan MySQL/MariaDB.',
   },
   {
     title: 'Design & Productivity',
