@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
     id: '4',
     title: 'Landing Page Bus Jaya Trans',
     description:
-      'Perancangan landing page modern untuk layanan transportasi Bus Jaya Trans dengan fokus pada penyampaian informasi rute, layanan, dan pengalaman pengguna melalui tampilan yang bersih, responsif, dan mudah dipahami.',
+      'Perancangan landing page modern untuk layanan transportasi Bus Jaya Trans dengan fokus pada penyampaian informasi rute, layanan, dan pengalaman pengguna melalui tampilan yang bersih, dan mudah dipahami.',
     image: '/images/project4.png',
     tags: ['Figma', 'UI/UX', 'Web Design'],
     demoUrl:
