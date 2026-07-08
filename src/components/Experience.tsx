@@ -5,39 +5,39 @@ import { AnimatePresence, motion, Variants } from 'framer-motion';
 
 const experiences = [
   {
-    year: 'Februari - Mei 2026',
-    title: 'Asistensi Mengajar',
+    year: 'Februari – Mei 2026',
+    title: 'Asisten Mengajar (RPL)',
     organization: 'SMKN 8 Malang',
     description:
-      'Membantu proses pembelajaran mata pelajaran Rekayasa Perangkat Lunak kelas XI, mengajar mata pelajaran Pemrograman Perangkat Bergerak menggunakan Flutter dengan integrasi Supabase, mendampingi siswa saat praktik pemrograman, menyiapkan materi dan media pembelajaran, serta membantu evaluasi tugas dan kegiatan belajar siswa.',
+      'Mendampingi ±30 siswa kelas XI pada mata pelajaran Pemrograman Perangkat Bergerak menggunakan Flutter dan Supabase. Membimbing praktik pembuatan aplikasi mobile sederhana dengan fitur autentikasi dan CRUD, sekaligus menyiapkan materi, media pembelajaran, dan memberikan feedback pada tugas pemrograman setiap pertemuan.',
   },
   {
     year: '2025',
     title: 'Koordinator POSITRON 2025',
     organization: 'HMD Teknik Elektro dan Informatika',
     description:
-      'Memimpin dan mengoordinasikan Ketua Pelaksana Serangkaian dalam perencanaan serta pelaksanaan seluruh rangkaian kegiatan orientasi mahasiswa baru Departemen Teknik Elektro dan Informatika. Bertanggung jawab dalam penyusunan konsep acara dan pengawalan teknis kegiatan agar berjalan terstruktur, sistematis, dan selaras dengan nilai serta tujuan departemen.',
+      'Mengoordinasikan rangkaian orientasi mahasiswa baru Departemen Teknik Elektro dan Informatika dengan ratusan peserta dan beberapa tim pelaksana. Menyusun alur acara, aturan, dan mekanisme koordinasi lintas divisi sehingga kegiatan berjalan tertib dan konsisten dengan nilai departemen.',
   },
   {
     year: '2025',
     title: 'Ketua Pelaksana FESMARO 2025',
     organization: 'HMD Teknik Elektro dan Informatika',
     description:
-      'Memimpin perencanaan dan pelaksanaan FESMARO 2025 sebagai ajang kompetisi internal untuk menyaring inovasi dan kreativitas mahasiswa Teknik Elektro dan Informatika menuju kompetisi tingkat nasional. Bertanggung jawab atas koordinasi tim, penyusunan konsep acara, manajemen anggaran, pengelolaan stakeholder, serta memastikan seluruh rangkaian kegiatan berjalan efektif, sistematis, dan tepat waktu.',
+      'Memimpin tim panitia dalam merancang dan menjalankan FESMARO 2025 sebagai kompetisi internal menuju ajang tingkat nasional. Mengelola konsep acara, teknis lomba, dan komunikasi dengan stakeholder serta sponsor sehingga seluruh rangkaian selesai sesuai jadwal dan target peserta tercapai.',
   },
   {
-    year: '2024 - 2025',
+    year: '2024 – 2025',
     title: 'Ketua Bidang Organisasi & Kepemimpinan',
     organization: 'HMD Teknik Elektro dan Informatika',
     description:
-      'Memimpin Bidang Organisasi dan Kepemimpinan dalam merancang serta mengembangkan berbagai program kerja yang bertujuan meningkatkan kemampuan kepemimpinan anggota. Mengoordinasikan pelaksanaan kegiatan internal untuk memperkuat solidaritas, komunikasi, dan efektivitas organisasi, sekaligus menyusun strategi serta inisiatif yang mendukung pengembangan sistem organisasi dan potensi sumber daya manusia di lingkungan himpunan.',
+      'Memimpin perancangan dan eksekusi program kerja yang berfokus pada pengembangan kepemimpinan dan budaya kerja anggota himpunan. Mengoordinasikan beberapa kegiatan internal untuk memperkuat solidaritas, komunikasi, dan efektivitas tim.',
   },
   {
-    year: '2023 - 2024',
-    title: 'Staff Divisi Komunikasi & Informasi',
+    year: '2023 – 2024',
+    title: 'Staf Divisi Komunikasi & Informasi',
     organization: 'HMD Teknik Elektro dan Informatika',
     description:
-      'Berperan sebagai Staff Divisi Kominfo dengan tanggung jawab mendukung penyebaran informasi organisasi melalui berbagai platform digital. Bertanggung jawab dalam mengelola media sosial, memastikan informasi yang disampaikan kepada mahasiswa akurat dan tepat waktu, serta berkontribusi dalam pembuatan dan pengelolaan konten kreatif untuk meningkatkan branding dan citra organisasi.',
+      'Mendukung penyebaran informasi kegiatan himpunan melalui kanal digital dan media sosial. Berkontribusi dalam pembuatan serta pengelolaan konten sederhana untuk menjaga konsistensi branding dan memastikan informasi sampai ke mahasiswa tepat waktu.',
   },
 ];
 
@@ -96,14 +96,15 @@ export default function Experience() {
           </p>
 
           <h2 className="mt-2 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl">
-            Leadership, Organization,
+            Teaching, Leadership,
             <br className="hidden sm:block" />
-            and Teaching Journey.
+            and Digital Involvement.
           </h2>
 
           <p className="mt-4 text-base leading-8 text-slate-600 sm:text-lg">
-            Pengalaman organisasi, kepemimpinan, dan pendidikan yang membentuk
-            kemampuan komunikasi, kolaborasi, serta problem solving saya.
+            Pengalaman mengajar, memimpin organisasi, dan mengelola komunikasi
+            digital yang membangun kemampuan komunikasi, kolaborasi, dan eksekusi—
+            fondasi penting untuk bekerja di pengembangan produk.
           </p>
         </motion.div>
 
@@ -254,7 +255,9 @@ export default function Experience() {
                   <motion.span
                     animate={{ rotate: isActive ? 45 : 0 }}
                     transition={{ duration: 0.25 }}
-                    className={`pt-1 text-sm ${isActive ? 'text-white/70' : 'text-slate-400'}`}
+                    className={`pt-1 text-sm ${
+                      isActive ? 'text-white/70' : 'text-slate-400'
+                    }`}
                   >
                     +
                   </motion.span>

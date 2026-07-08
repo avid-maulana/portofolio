@@ -64,11 +64,11 @@ export default function About() {
               </p>
 
               <h2 className="mt-3 text-3xl font-black leading-tight tracking-tight text-slate-950 sm:text-4xl lg:text-[3rem]">
-                Building thoughtful
+                Designing and shipping
                 <br />
-                digital experiences
+                user-focused digital
                 <br />
-                through design and technology.
+                experiences.
               </h2>
             </motion.div>
 
@@ -77,21 +77,24 @@ export default function About() {
               className="mt-8 max-w-3xl space-y-5 text-[15px] leading-8 text-slate-600 sm:mt-10 sm:text-[17px]"
             >
               <p>
-                Saya merupakan mahasiswa aktif Program Studi S1 Pendidikan
-                Teknik Informatika Universitas Negeri Malang yang memiliki minat
-                pada teknologi, desain grafis, UI/UX Design, dan pengembangan web.
+                Saya adalah mahasiswa S1 Pendidikan Teknik Informatika di Universitas Negeri Malang
+                dengan fokus pada desain produk digital dan front-end development. Saya banyak
+                mengeksplorasi UI/UX Design, pengembangan web, serta pembuatan antarmuka yang
+                responsif dan mudah digunakan.
               </p>
 
               <p>
-                Melalui pengalaman akademik maupun organisasi, saya terbiasa
-                bekerja secara disiplin, kreatif, dan mampu beradaptasi baik
-                dalam tim maupun secara individu.
+                Di luar perkuliahan, saya aktif mengikuti organisasi, kepanitiaan, dan kompetisi 
+                teknologi untuk mengasah kemampuan kepemimpinan dan kolaborasi. Pengalaman ini 
+                membantu saya berpikir terstruktur, mengelola banyak stakeholder, dan tetap fokus 
+                pada eksekusi.
               </p>
 
               <p>
-                Bagi saya, merancang produk digital bukan hanya tentang tampilan
-                akhir, tetapi juga tentang memahami kebutuhan pengguna dan
-                menghadirkan solusi yang benar-benar relevan.
+                Dalam mengerjakan produk digital, saya tidak hanya memikirkan visual, tetapi juga 
+                alur pengguna, konteks penggunaan, dan bagaimana solusi yang dibangun benar-benar 
+                menyelesaikan masalah pengguna. Saya senang belajar stack baru dan menguji ide 
+                melalui prototipe yang bisa diujicobakan langsung.
               </p>
             </motion.div>
           </div>
@@ -112,6 +115,10 @@ export default function About() {
                 <p className="mt-2 text-sm leading-6 text-white/80">
                   Universitas Negeri Malang
                 </p>
+                <p className="mt-3 text-xs leading-6 text-white/60">
+                  Fokus pada pengembangan perangkat lunak, dasar-dasar rekayasa
+                  perangkat lunak, dan pemanfaatan teknologi dalam konteks pendidikan.
+                </p>
               </motion.div>
 
               <motion.div
@@ -122,7 +129,11 @@ export default function About() {
                   Based In
                 </p>
                 <p className="mt-3 text-base font-medium leading-7 text-slate-800">
-                  Malang, East Java, Indonesia
+                  Ngantang, Kab. Malang, East Java
+                </p>
+                <p className="mt-2 text-xs leading-6 text-slate-500">
+                  Terbuka untuk kesempatan remote maupun hybrid, terutama di bidang
+                  desain produk digital dan pengembangan front-end.
                 </p>
               </motion.div>
 
@@ -141,6 +152,12 @@ export default function About() {
                   <span className="rounded-full bg-slate-100 px-3 py-1.5 text-sm font-medium text-slate-700">
                     Front-End Development
                   </span>
+                  <span className="rounded-full bg-emerald-50 px-3 py-1.5 text-sm font-medium text-emerald-700">
+                    Flutter & Supabase
+                  </span>
+                  <span className="rounded-full bg-indigo-50 px-3 py-1.5 text-sm font-medium text-indigo-700">
+                    Next.js & Tailwind CSS
+                  </span>
                 </div>
               </motion.div>
 
@@ -152,8 +169,9 @@ export default function About() {
                   Working Style
                 </p>
                 <p className="mt-3 text-sm leading-7 text-slate-600">
-                  Structured thinking, visual clarity, collaborative process, and
-                  user-centered problem solving.
+                  Structured thinking, eksplorasi visual yang rapi, iterasi berbasis feedback,
+                  dan pendekatan yang berpusat pada pengguna dari riset ringan hingga prototipe
+                  yang bisa diuji.
                 </p>
               </motion.div>
             </div>

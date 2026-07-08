@@ -4,9 +4,9 @@ import Link from 'next/link';
 import { motion, Variants } from 'framer-motion';
 
 const highlights = [
-  { value: '7th', label: 'Semester at State University of Malang' },
-  { value: '2+', label: 'Organizational Experience' },
-  { value: '10+', label: 'Awards' },
+  { value: 'Semester 7', label: 'Pendidikan Teknik Informatika UM' },
+  { value: '2+', label: 'Tahun pengalaman organisasi & kepanitiaan' },
+  { value: '10+', label: 'Penghargaan & kompetisi diikuti' },
 ];
 
 const heroWrap: Variants = {
@@ -96,11 +96,16 @@ export default function Hero() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-[1.05rem]">
-                Saya merupakan mahasiswa aktif Program Studi S1 Pendidikan Teknik Informatika di Universitas Negeri
-Malang  yang  memiliki  minat  besar  pada  bidang  teknologi  dan  desain  digital.  Saya  tertarik  pada
-pengembangan UI/UX Design serta desain grafis untuk menciptakan tampilan yang menarik, modern, dan
-mudah digunakan. Selain itu, saya juga menyukai aktivitas vibe coding sebagai bentuk eksplorasi kreatif
-dalam mengembangkan ide dan tampilan digital.
+                Mahasiswa S1 Pendidikan Teknik Informatika di Universitas Negeri Malang dengan fokus
+                pada desain produk digital dan pengembangan front-end. Saya mengeksplorasi UI/UX
+                Design, Flutter & Supabase, serta Next.js & Tailwind CSS untuk membangun antarmuka
+                web dan mobile yang responsif, konsisten, dan nyaman digunakan.
+              </p>
+
+              <p className="mt-3 max-w-2xl text-base leading-8 text-slate-600 sm:text-[1.05rem]">
+                Saya menikmati proses end-to-end: dari memahami kebutuhan pengguna, memetakan alur
+                interaksi, merancang tampilan, hingga mengimplementasikannya ke dalam prototipe atau
+                aplikasi yang bisa diuji langsung.
               </p>
             </motion.div>
 
@@ -137,10 +142,7 @@ dalam mengembangkan ide dan tampilan digital.
           </motion.div>
 
           {/* Right */}
-          <motion.div
-            variants={fadeUp}
-            className="lg:justify-self-end"
-          >
+          <motion.div variants={fadeUp} className="lg:justify-self-end">
             <motion.div
               variants={cardWrap}
               className="rounded-[24px] border border-slate-200 bg-white/90 p-5 shadow-sm backdrop-blur sm:rounded-[28px] sm:p-6 lg:p-7"
@@ -154,7 +156,7 @@ dalam mengembangkan ide dan tampilan digital.
                     Profile Snapshot
                   </p>
                   <h2 className="mt-2 text-lg font-black tracking-tight text-slate-950 sm:text-xl">
-                    Creative Technologist
+                    Product-Focused Technologist
                   </h2>
                 </div>
 
@@ -188,8 +190,9 @@ dalam mengembangkan ide dan tampilan digital.
                   Focus
                 </p>
                 <p className="mt-2 text-sm leading-7 text-white/90">
-                  Building clean interfaces, thoughtful interaction, and digital
-                  products with meaningful value.
+                  Merancang dan membangun antarmuka bersih, interaksi yang jelas, dan produk
+                  digital yang tidak hanya terlihat modern tetapi juga menyelesaikan masalah
+                  pengguna secara nyata.
                 </p>
               </motion.div>
             </motion.div>
